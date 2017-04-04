@@ -199,15 +199,18 @@
 					1832E3341BB33995006C9024 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 6H6568LNR9;
+						LastSwiftMigration = 0810;
 					};
 					1832E34D1BB33995006C9024 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 6H6568LNR9;
+						LastSwiftMigration = 0810;
 						TestTargetID = 1832E3341BB33995006C9024;
 					};
 					1832E3581BB33995006C9024 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 6H6568LNR9;
+						LastSwiftMigration = 0810;
 						TestTargetID = 1832E3341BB33995006C9024;
 					};
 				};
@@ -413,6 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.zenunvucetovic.Blog-Reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -424,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.zenunvucetovic.Blog-Reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -435,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.zenunvucetovic.Blog-ReaderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blog Reader.app/Blog Reader";
 			};
 			name = Debug;
@@ -447,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.zenunvucetovic.Blog-ReaderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blog Reader.app/Blog Reader";
 			};
 			name = Release;
@@ -458,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.zenunvucetovic.Blog-ReaderUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = "Blog Reader";
 				USES_XCTRUNNER = YES;
 			};
@@ -470,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.zenunvucetovic.Blog-ReaderUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = "Blog Reader";
 				USES_XCTRUNNER = YES;
 			};
@@ -494,6 +503,7 @@
 				1832E3641BB33995006C9024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1832E3651BB33995006C9024 /* Build configuration list for PBXNativeTarget "Blog ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				1832E3671BB33995006C9024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1832E3681BB33995006C9024 /* Build configuration list for PBXNativeTarget "Blog ReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +521,7 @@
 				1832E36A1BB33995006C9024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

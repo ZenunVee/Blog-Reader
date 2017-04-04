@@ -39,13 +39,13 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                     
                     if jsonResults.count > 0 {
                         
-                        var request = NSFetchRequest(entityName: "Posts")
+                        let request = NSFetchRequest(entityName: "Posts")
                         
                         request.returnsObjectsAsFaults = false
                         
                         do {
                             
-                            var results = try context.executeFetchRequest(request)
+                            let results = try context.executeFetchRequest(request)
                             
                             if results.count > 0 {
                                 
@@ -70,7 +70,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                                     
                                     if let content = item["content"] as? String {
                                         
-                                        var newPost: NSManagedObject = NSEntityDescription.insertNewObjectForEntityForName("Posts", inManagedObjectContext: context) 
+                                        let newPost: NSManagedObject = NSEntityDescription.insertNewObjectForEntityForName("Posts", inManagedObjectContext: context) 
                                         
                                         newPost.setValue(title, forKey: "title")
                                         newPost.setValue(content, forKey: "content")
@@ -202,7 +202,8 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 
     func configureCell(cell: UITableViewCell, atIndexPath indexPath: NSIndexPath) {
         let object = self.fetchedResultsController.objectAtIndexPath(indexPath)
-        cell.textLabel!.text = object.valueForKey("title")!.description
+        cell.textLabel!.text = valueForKey("content")!.description
+        //cell.textLabel!.text = object.valueForKey("title")!.description
     }
 
 }
