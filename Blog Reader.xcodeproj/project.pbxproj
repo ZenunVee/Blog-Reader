@@ -16,6 +16,7 @@
 		1832E3481BB33995006C9024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1832E3461BB33995006C9024 /* LaunchScreen.storyboard */; };
 		1832E3531BB33995006C9024 /* Blog_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832E3521BB33995006C9024 /* Blog_ReaderTests.swift */; };
 		1832E35E1BB33995006C9024 /* Blog_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832E35D1BB33995006C9024 /* Blog_ReaderUITests.swift */; };
+		1879DB561E934C1200A14D03 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879DB551E934C1200A14D03 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1832E3591BB33995006C9024 /* Blog ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blog ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1832E35D1BB33995006C9024 /* Blog_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog_ReaderUITests.swift; sourceTree = "<group>"; };
 		1832E35F1BB33995006C9024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1879DB551E934C1200A14D03 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				1832E3461BB33995006C9024 /* LaunchScreen.storyboard */,
 				1832E3491BB33995006C9024 /* Info.plist */,
 				1832E33A1BB33995006C9024 /* Blog_Reader.xcdatamodeld */,
+				1879DB551E934C1200A14D03 /* test.swift */,
 			);
 			path = "Blog Reader";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				1832E33C1BB33995006C9024 /* Blog_Reader.xcdatamodeld in Sources */,
 				1832E3391BB33995006C9024 /* AppDelegate.swift in Sources */,
 				1832E33E1BB33995006C9024 /* MasterViewController.swift in Sources */,
+				1879DB561E934C1200A14D03 /* test.swift in Sources */,
 				1832E3401BB33995006C9024 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +498,7 @@
 				1832E3641BB33995006C9024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1832E3651BB33995006C9024 /* Build configuration list for PBXNativeTarget "Blog ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +507,7 @@
 				1832E3671BB33995006C9024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1832E3681BB33995006C9024 /* Build configuration list for PBXNativeTarget "Blog ReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +516,7 @@
 				1832E36A1BB33995006C9024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
